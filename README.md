@@ -2,6 +2,8 @@
 
 Implémentation : Nous montrons au modèle de nombreux exemples d'entraînement afin qu'il puisse apprendre un modèle entre l'entrée et la sortie.
 
+Ce projet comporte trois salves : deux fichiers .ipynb entraînés sur un texte bien précis utilisant une source statique et un fichier "yes.py" ouvert auquel on doit soumetrre notre choix.
+
 Chaque entrée est une séquence de caractères et la sortie est le caractère unique suivant. Par exemple, si nous voulons nous entraîner sur la phrase "python is a great language", l'entrée du premier échantillon est "python is a great langua" et la sortie sera "g". L'entrée du deuxième échantillon serait "ython is a great languag" et la sortie serait "e", et ainsi de suite, jusqu'à ce que nous bouclions tout l'ensemble de données. Nous devons montrer au modèle autant d'exemples que possible afin d'obtenir des prédictions raisonnables.
 
 Comment faire pour créer cette IA ? Nous allons effectuer différentes étapes : préparation du dataset, construction du modèle, entrainement du modèle et génération du texte.
