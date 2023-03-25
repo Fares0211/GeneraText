@@ -1,4 +1,4 @@
-# Generat-EXT
+# GeneraText
 
 Implémentation : Nous montrons au modèle de nombreux exemples d'entraînement afin qu'il puisse apprendre un modèle entre l'entrée et la sortie.
 
