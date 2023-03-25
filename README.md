@@ -1,8 +1,6 @@
 # Generat-EXT
 
-Implémentation :
-
-Nous montrons au modèle de nombreux exemples d'entraînement afin qu'il puisse apprendre un modèle entre l'entrée et la sortie.
+Implémentation : Nous montrons au modèle de nombreux exemples d'entraînement afin qu'il puisse apprendre un modèle entre l'entrée et la sortie.
 
 Chaque entrée est une séquence de caractères et la sortie est le caractère unique suivant. Par exemple, si nous voulons nous entraîner sur la phrase "python is a great language", l'entrée du premier échantillon est "python is a great langua" et la sortie sera "g". L'entrée du deuxième échantillon serait "ython is a great languag" et la sortie serait "e", et ainsi de suite, jusqu'à ce que nous bouclions tout l'ensemble de données. Nous devons montrer au modèle autant d'exemples que possible afin d'obtenir des prédictions raisonnables.
 
